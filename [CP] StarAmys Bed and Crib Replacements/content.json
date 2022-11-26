@@ -7,7 +7,7 @@
             "Default": "Grey"
         },
           "Single Bed Frame": {
-            "AllowValues": "Medium, Light, Dark",
+            "AllowValues": "Medium, Light, Dark, Off",
             "Default": "Medium"
         },
          "Double Bed Bedding": {
@@ -15,7 +15,7 @@
             "Default": "Grey"
         },
           "Double Bed Frame": {
-            "AllowValues": "Medium, Light, Dark",
+            "AllowValues": "Medium, Light, Dark, Off",
             "Default": "Medium"
         },
           "Child Bed Bedding": {
@@ -23,7 +23,7 @@
             "Default": "Grey"
         },
           "Child Bed Frame": {
-            "AllowValues": "Medium, Light, Dark",
+            "AllowValues": "Medium, Light, Dark, Off",
             "Default": "Medium"
         },
           "Crib Bedding": {
@@ -31,7 +31,7 @@
             "Default": "Grey"
         },
           "Crib Frame": {
-            "AllowValues": "Medium, Light, Dark",
+            "AllowValues": "Medium, Light, Dark, Off",
             "Default": "Medium"
         },
 },
