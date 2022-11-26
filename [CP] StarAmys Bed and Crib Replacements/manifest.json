@@ -1,0 +1,10 @@
+{
+  "Name": "StarAmy's Bed and Crib Replacement",
+  "Author": "StarAmy",
+  "Version": "1.0.0",
+  "Description": "Adds configurable bedding and bed frames for the default bed, child bed, double bed, and crib.",
+  "UniqueID": "StarAmy.Beds",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

@@ -1,0 +1,1355 @@
+{
+   "Format": "1.19",
+
+   "ConfigSchema": {
+         "Single Bed Bedding": {
+            "AllowValues": "Grey, Cream, Red, Brown, Pink, Purple, Green, Blue, Off",
+            "Default": "Grey"
+        },
+          "Single Bed Frame": {
+            "AllowValues": "Medium, Light, Dark",
+            "Default": "Medium"
+        },
+         "Double Bed Bedding": {
+            "AllowValues": "Grey, Cream, Red, Brown, Pink, Purple, Green, Blue, Off",
+            "Default": "Grey"
+        },
+          "Double Bed Frame": {
+            "AllowValues": "Medium, Light, Dark",
+            "Default": "Medium"
+        },
+          "Child Bed Bedding": {
+            "AllowValues": "Grey, Cream, Red, Brown, Pink, Purple, Green, Blue, Off",
+            "Default": "Grey"
+        },
+          "Child Bed Frame": {
+            "AllowValues": "Medium, Light, Dark",
+            "Default": "Medium"
+        },
+          "Crib Bedding": {
+            "AllowValues": "Grey, Cream, Red, Brown, Pink, Purple, Green, Blue, Off",
+            "Default": "Grey"
+        },
+          "Crib Frame": {
+            "AllowValues": "Medium, Light, Dark",
+            "Default": "Medium"
+        },
+},
+   "Changes": 
+[
+     //adult beds
+      {
+
+      	"Action": "EditImage",
+      	"Target": "TileSheets/furniture",
+      	"FromFile": "assets/bed_grey.png",
+      	"ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Grey"
+        }
+      },
+
+      {
+
+      	"Action": "EditImage",
+      	"Target": "TileSheets/furniture",
+      	"FromFile": "assets/bedsheets_grey.png",
+      	"ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Grey"
+        }
+
+      },
+
+ {
+
+      	"Action": "EditImage",
+      	"Target": "TileSheets/furniture",
+      	"FromFile": "assets/doublebed_grey.png",
+      	"ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Grey"
+        }
+
+      },
+ {
+
+      	"Action": "EditImage",
+      	"Target": "TileSheets/furniture",
+      	"FromFile": "assets/doublebedsheets_grey.png",
+      	"ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Grey"
+        }
+
+      },
+       {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Brown.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Brown"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Brown.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Brown"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_Brown.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Brown"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_Brown.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Brown"
+        }
+
+      },
+            {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Red.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Red"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Red.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Red"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_Red.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Red"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_Red.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Red"
+        }
+
+      },
+       {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Green.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Green"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Green.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Green"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_Green.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Green"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_Green.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Green"
+        }
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Pink.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Pink"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Pink.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Pink"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_Pink.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Pink"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_Pink.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Pink"
+        }
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Purple.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Purple"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Purple.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Purple"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_Purple.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Purple"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_Purple.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Purple"
+        }
+
+      },
+            {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_cream.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Cream"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_cream.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Cream"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_cream.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Cream"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_cream.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Cream"
+        }
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_blue.png",
+          "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "When":{ 
+            "Single Bed Bedding": "Blue"
+        }
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_blue.png",
+          "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+          "When":{ 
+            "Single Bed Bedding": "Blue"
+        }
+
+      },
+
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebed_blue.png",
+          "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+          "When":{ 
+            "Double Bed Bedding": "Blue"
+        }
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/doublebedsheets_blue.png",
+          "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+          "When":{ 
+            "Double Bed Bedding": "Blue"
+        }
+
+      },
+
+
+            {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedframe_medium.png",
+        "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "PatchMode": "Overlay",
+        "When":{ 
+            "Single Bed Frame": "Medium"
+        }
+      },
+
+      {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedsheetsframe_medium.png",
+        "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Single Bed Frame": "Medium"
+        }
+
+      },
+
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedframe_medium.png",
+        "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Medium"
+        }
+
+      },
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedsheetsframe_medium.png",
+        "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Medium"
+        }
+
+      },
+
+            {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedframe_light.png",
+        "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "PatchMode": "Overlay",
+        "When":{ 
+            "Single Bed Frame": "Light"
+        }
+      },
+
+      {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedsheetsframe_light.png",
+        "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Single Bed Frame": "Light"
+        }
+
+      },
+
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedframe_light.png",
+        "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Light"
+        }
+
+      },
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedsheetsframe_light.png",
+        "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Light"
+        }
+
+      },
+
+                  {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedframe_dark.png",
+        "ToArea": { "X" : 0, "Y" : 1024, "Width": 32, "Height": 64 },
+        "PatchMode": "Overlay",
+        "When":{ 
+            "Single Bed Frame": "Dark"
+        }
+      },
+
+      {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/bedsheetsframe_dark.png",
+        "ToArea": { "X" : 32, "Y" : 1040, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Single Bed Frame": "Dark"
+        }
+
+      },
+
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedframe_dark.png",
+        "ToArea": { "X" : 64, "Y" : 1024, "Width": 48, "Height": 64 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Dark"
+        }
+
+      },
+ {
+
+        "Action": "EditImage",
+        "Target": "TileSheets/furniture",
+        "FromFile": "assets/doublebedsheetsframe_dark.png",
+        "ToArea": { "X" : 112, "Y" : 1040, "Width": 48, "Height": 48 },
+        "PatchMode": "Overlay",
+          "When":{ 
+            "Double Bed Frame": "Dark"
+        }
+
+      },
+//crib
+
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_grey.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Grey"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_grey.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Grey"
+        }
+          },
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_Brown.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Brown"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_Brown.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Brown"
+        }
+          },
+
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_Red.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Red"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_Red.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Red"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_Green.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Green"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_Green.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Green"
+        }
+          },
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_Pink.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Pink"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_Pink.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Pink"
+        }
+          },
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_Purple.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Purple"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_Purple.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Purple"
+        }
+          },
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_cream.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Cream"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_cream.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Cream"
+        }
+          },
+{
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/crib_blue.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Blue"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/crib_blue.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "When":{ 
+            "Crib Bedding": "Blue"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribframe_medium.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Medium"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribframe_medium.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Medium"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribrails_medium.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Medium"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribrails_medium.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Medium"
+        }
+          },
+                    {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribframe_light.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Light"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribframe_light.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Light"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribrails_light.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Light"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribrails_light.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Light"
+        }
+          },
+                    {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribframe_dark.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Dark"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribframe_dark.png",
+              "ToArea": { "X": 80, "Y": 240, "Width": 48, "Height": 64 },
+              "PatchMode": "Overlay",
+              "When":{ 
+            "Crib Frame": "Dark"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "farmhouse_tiles",
+              "FromFile": "assets/cribrails_dark.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Dark"
+        }
+          },
+          {
+               "Action": "EditImage",
+              "Target": "Maps/farmhouse_tiles",
+              "FromFile": "assets/cribrails_dark.png",
+              "ToArea": { "X": 129, "Y": 302, "Width": 47, "Height": 12 },
+              "When":{ 
+            "Crib Frame": "Dark"
+        }
+          },
+
+//child beds
+
+     {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_grey.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Grey"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_grey.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Grey"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_grey.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Grey"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_grey.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Grey"
+        }
+
+
+      },
+{
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Brown.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Brown"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Brown.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Brown"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Brown.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Brown"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Brown.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Brown"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Red.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Red"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Red.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Red"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Red.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Red"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Red.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Red"
+        }
+
+
+      },
+ {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Green.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Green"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Green.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Green"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Green.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Green"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Green.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Green"
+        }
+
+
+      },
+
+     {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Pink.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Pink"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Pink.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Pink"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Pink.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Pink"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Pink.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Pink"
+        }
+
+
+      },
+           {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Purple.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Purple"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Purple.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Purple"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_Purple.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Purple"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_Purple.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Purple"
+        }
+
+
+      },
+       {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_cream.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Cream"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_cream.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Cream"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_cream.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Cream"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_cream.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Cream"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_blue.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Blue"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_blue.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Blue"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bed_blue.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+              "When":{ 
+            "Child Bed Bedding": "Blue"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheets_blue.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+              "When":{ 
+            "Child Bed Bedding": "Blue"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_medium.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Medium"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_medium.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Medium"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_medium.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Medium"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_medium.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Medium"
+        }
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_dark.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Dark"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_dark.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Dark"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_dark.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Dark"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_dark.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Dark"
+        }
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_light.png",
+          "ToArea": { "X" : 448, "Y" : 1024, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Light"
+        }
+
+      },
+
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_light.png",
+          "ToArea": { "X" : 480, "Y" : 1040, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Light"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedframe_light.png",
+          "ToArea": { "X" : 448, "Y" : 1088, "Width": 32, "Height": 64 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Light"
+        }
+
+
+      },
+      {
+
+          "Action": "EditImage",
+          "Target": "TileSheets/furniture",
+          "FromFile": "assets/bedsheetsframe_light.png",
+          "ToArea": { "X" : 480, "Y" : 1104, "Width": 32, "Height": 48 },
+          "PatchMode": "Overlay",
+              "When":{ 
+            "Child Bed Frame": "Light"
+        }
+
+      },
+]
+}
